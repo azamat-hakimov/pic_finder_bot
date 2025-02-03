@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class MyBot extends TelegramLongPollingBot {
 
-    private static final String ACCESS_KEY = "ff70c5db53msh5c5bcf64b96f569p1f8e5fjsn93ec0707e62b";
+    private static final String ACCESS_KEY = "yourrapidapiaccesskey";
     private static final String BASE_URL = "unsplash-image-search-api.p.rapidapi.com";
 
     @Override
@@ -104,6 +104,6 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "8108617331:AAG3FhNadwTj8dvg8b82uUXPnW60kWJmXfk";
+        return "yourbottoken";
     }
 }
